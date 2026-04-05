@@ -67,41 +67,32 @@ export default {
 </script>
 
 <style scoped>
-.get-started {
-    padding: 3rem 0;
-}
+.get-started {}
 
 h2 {
     text-align: center;
     color: aliceblue;
-    font-size: 2rem;
     font-family: 'frutiger';
     text-shadow: 0 0 10px rgb(104, 104, 104);
 }
 
 .intro {
-    font-size: 1rem;
     text-align: center;
     color: aliceblue;
     font-family: 'frutiger';
-    margin: 1rem 0 2rem;
 }
 
 h3 {
     text-align: center;
     color: aliceblue;
-    font-size: 1.5rem;
     font-family: 'frutiger';
 }
 
 .install-box {
     background-color: rgba(49, 104, 255, 0.219);
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
 .install-text {
-    font-size: 0.9rem;
     text-align: center;
     color: aliceblue;
     font-family: 'frutiger';
@@ -111,16 +102,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    width: 100%;
     background-color: rgba(5, 4, 54, 0.651);
-    padding: 0.75rem 1rem;
 }
 
 .code-button code {
     font-family: 'frutiger';
     color: aliceblue;
-    font-size: 0.8rem;
     text-align: left;
 }
 
@@ -136,46 +123,57 @@ h3 {
 }
 
 .examples-text {
-    margin-top: 1.5rem;
     text-align: center;
-    font-size: 0.9rem;
     color: aliceblue;
     font-family: 'frutiger';
 }
 
-@media (min-width: 768px) {
-    h2 {
-        font-size: 2.5rem;
-    }
+/* ============================================
+   MEDIAS QUERIES
+   ============================================ */
 
-    .intro {
-        font-size: 1.2rem;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-    }
-
-    .install-text {
-        font-size: 1rem;
-    }
-
-    .code-button code {
-        font-size: 1rem;
-    }
-
-    .examples-text {
-        font-size: 1rem;
-    }
+/* #1 - Móvil pequeño - Landscape */
+@media screen and (min-width: 320px) and (orientation: landscape) {
+    /* Ajustes para móvil pequeño landscape */
 }
 
-@media (min-width: 992px) {
-    h2 {
-        font-size: 3rem;
-    }
+/* #2 - Móvil - Portrait */
+@media screen and (min-width: 480px) {
+    
+}
 
-    .install-box {
-        padding: 2rem;
-    }
+/* #3 - Móvil - Landscape */
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    /* Ajustes para móvil landscape */
+}
+
+/* #4 - Tablet - Portrait */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* #5 - Tablet - Landscape */
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    /* Ajustes para tablet landscape */
+}
+
+/* #6 - Desktop - Portrait */
+@media screen and (min-width: 1024px) {
+    /* Ajustes para desktop portrait */
+}
+
+/* #7 - Desktop - Landscape */
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    /* Ajustes para desktop landscape */
+}
+
+/* #8 - Desktop grande - Portrait */
+@media screen and (min-width: 1440px) {
+    /* Ajustes para desktop grande portrait */
+}
+
+/* #9 - Desktop grande - Landscape */
+@media screen and (min-width: 1440px) and (orientation: landscape) {
+    /* Ajustes para desktop grande landscape */
 }
 </style>

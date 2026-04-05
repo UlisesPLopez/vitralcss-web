@@ -48,48 +48,32 @@ export default {
 
 <style scoped>
 .why-vitralcss {
-    padding: 3rem 0;
     text-align: center;
 }
 
 h2 {
     font-family: 'frutiger';
-    font-size: 2rem;
     font-weight: bold;
     color: aliceblue;
     text-shadow: 0 0 10px rgb(104, 104, 104);
 }
 
 .subtitle {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
     color: aliceblue;
     text-shadow: 0 0 10px rgb(104, 104, 104);
 }
 
 .description {
-    margin-top: 1rem;
-    font-size: 0.9rem;
     color: aliceblue;
     font-family: 'frutiger';
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.key-benefits {
-    margin-top: 2rem;
-    gap: 1rem;
-}
+.key-benefits {}
 
 .benefit {
-    padding: 1rem;
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
     color: aliceblue;
     text-shadow: 0 0 5px rgb(104, 104, 104);
     background-color: rgba(32, 17, 85, 0.219);
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,31 +83,52 @@ h2 {
     text-align: center;
 }
 
-@media (min-width: 768px) {
-    h2 {
-        font-size: 2.5rem;
-    }
+/* ============================================
+   MEDIAS QUERIES
+   ============================================ */
 
-    .subtitle {
-        font-size: 1.5rem;
-    }
-
-    .description {
-        font-size: 1rem;
-    }
-
-    .benefit {
-        font-size: 1rem;
-    }
+/* #1 - Móvil pequeño - Landscape */
+@media screen and (min-width: 320px) and (orientation: landscape) {
+    /* Ajustes para móvil pequeño landscape */
 }
 
-@media (min-width: 992px) {
-    h2 {
-        font-size: 3rem;
-    }
+/* #2 - Móvil - Portrait */
+@media screen and (min-width: 480px) {
+    
+}
 
-    .why-vitralcss {
-        padding: 4rem 0;
-    }
+/* #3 - Móvil - Landscape */
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    /* Ajustes para móvil landscape */
+}
+
+/* #4 - Tablet - Portrait */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* #5 - Tablet - Landscape */
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    /* Ajustes para tablet landscape */
+}
+
+/* #6 - Desktop - Portrait */
+@media screen and (min-width: 1024px) {
+    
+}
+
+/* #7 - Desktop - Landscape */
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    /* Ajustes para desktop landscape */
+}
+
+/* #8 - Desktop grande - Portrait */
+@media screen and (min-width: 1440px) {
+    /* Ajustes para desktop grande portrait */
+}
+
+/* #9 - Desktop grande - Landscape */
+@media screen and (min-width: 1440px) and (orientation: landscape) {
+    /* Ajustes para desktop grande landscape */
 }
 </style>

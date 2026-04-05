@@ -28,6 +28,8 @@
     <GetStarted />
     <WhyVitralCSS />
     <HomeFeatures />
+
+    <!-- jasja -->
 </template>
 
 <script>
@@ -60,42 +62,27 @@ header {
     background-image: url('../assets/images/home-images/HomeBG.webp');
     background-size: cover;
     background-position: center;
-    padding-top: 12vh;
-    min-height: 90vh;
-    width: 100%;
 }
 
 .title-box {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
     text-align: center;
     color: #F2FFFF;
     font-family: 'frutiger';
-    padding: 2rem 1rem;
 }
 
 .title-box p:first-of-type {
-    font-size: 1rem;
     opacity: 0.9;
 }
 
 .title-box h1 {
-    font-size: 3rem;
     font-weight: bold;
-    margin: 0.5rem 0;
     text-shadow: 0 0 20px rgba(255,255,255,0.3);
 }
 
-.title-box .subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
+.title-box .subtitle {}
 
 .cta-container {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
     align-items: center;
 }
 
@@ -103,24 +90,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
     background-color: rgba(0, 0, 0, 0.514);
-    padding: 0.75rem 1.5rem;
-    width: 100%;
-    max-width: 400px;
 }
 
 .code-box code {
     font-family: 'frutiger';
     color: aliceblue;
-    font-size: 0.9rem;
 }
 
 .code-box button {
     background-color: transparent;
     color: aliceblue;
     border: none;
-    padding: 0;
     display: flex;
     align-items: center;
 }
@@ -129,53 +110,57 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.75rem;
     background-color: rgba(0, 0, 0, 0.137);
     color: aliceblue;
-    padding: 0.75rem 1.5rem;
-    width: 100%;
-    max-width: 400px;
     text-decoration: none;
 }
 
-.docs-link span {
-    font-size: 1rem;
+/* ============================================
+   MEDIAS QUERIES - HOME
+   ============================================ */
+
+/* #1 - Móvil pequeño - Landscape */
+@media screen and (min-width: 320px) and (orientation: landscape) {
+    /* Ajustes para móvil pequeño landscape */
 }
 
-@media (min-width: 768px) {
-    .title-box h1 {
-        font-size: 4.5rem;
-    }
-
-    .title-box p:first-of-type {
-        font-size: 1.25rem;
-    }
-
-    .title-box .subtitle {
-        font-size: 1.5rem;
-    }
-
-    .cta-container {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .code-box code {
-        font-size: 1.1rem;
-    }
-
-    .docs-link span {
-        font-size: 1.1rem;
-    }
+/* #2 - Móvil - Portrait */
+@media screen and (min-width: 480px) {
+    
 }
 
-@media (min-width: 992px) {
-    .title-box h1 {
-        font-size: 5rem;
-    }
+/* #3 - Móvil - Landscape */
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    /* Ajustes para móvil landscape */
+}
 
-    .title-box {
-        padding: 3rem 2rem;
-    }
+/* #4 - Tablet - Portrait */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* #5 - Tablet - Landscape */
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    /* Ajustes para tablet landscape */
+}
+
+/* #6 - Desktop - Portrait */
+@media screen and (min-width: 1024px) {
+    
+}
+
+/* #7 - Desktop - Landscape */
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    /* Ajustes para desktop landscape */
+}
+
+/* #8 - Desktop grande - Portrait */
+@media screen and (min-width: 1440px) {
+    /* Ajustes para desktop grande portrait */
+}
+
+/* #9 - Desktop grande - Landscape */
+@media screen and (min-width: 1440px) and (orientation: landscape) {
+    /* Ajustes para desktop grande landscape */
 }
 </style>
