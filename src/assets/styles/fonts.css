@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'frutiger';
+    src: url('../fonts/Frutiger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'frutiger';
+    src: url('../fonts/Frutiger_bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Affirmative';
+    src: url('../fonts/Affirmative.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Affirmative';
+    src: url('../fonts/Affirmative_Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
