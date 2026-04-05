@@ -47,6 +47,7 @@ nav{
     position: fixed;
     z-index: 1000;
     width: 100vw;
+    background-color: rgba(0, 61, 103, 0.3);
 }
 .navbar-brand{
     font-size: 1.5rem;
@@ -66,5 +67,10 @@ li{
 .nav-link.router-link-active{
     color: #ffffff;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 15px rgba(96, 217, 247, 0.4);
+}
+
+/* Dropdown animation */
+.navbar-collapse {
+    transition: all 0.5s ease-out;
 }
 </style>
