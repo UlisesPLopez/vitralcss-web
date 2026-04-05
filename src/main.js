@@ -6,8 +6,8 @@ import router from './router'
 import './assets/styles/fonts.css';
 
 // vitracss
-import 'vitracss/dist/VitraCss.min.css'
-import 'vitracss/dist/VitraCss.min.js'
+import 'vitracss/VitralCSS.min2.css'
+import 'vitracss/VitralCSS.min.js'
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
