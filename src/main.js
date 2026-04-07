@@ -5,9 +5,9 @@ import router from './router'
 // fuentes
 import './assets/styles/fonts.css';
 
-// vitracss
-import 'vitracss/vitracss.min.css'
-import 'vitracss/vitracss.min.js'
+// vitralcss
+import 'vitralcss/vitralcss.min.css'
+import 'vitralcss/vitralcss.min.js'
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
