@@ -132,48 +132,28 @@ h3 {
    MEDIAS QUERIES
    ============================================ */
 
-/* #1 - Móvil pequeño - Landscape */
-@media screen and (min-width: 320px) and (orientation: landscape) {
-    /* Ajustes para móvil pequeño landscape */
-}
-
-/* #2 - Móvil - Portrait */
+/* #1 - Móviles 480px+ */
 @media screen and (min-width: 480px) {
-    
+    /* Ajustes para móviles */
 }
 
-/* #3 - Móvil - Landscape */
-@media screen and (min-width: 480px) and (orientation: landscape) {
-    /* Ajustes para móvil landscape */
-}
-
-/* #4 - Tablet - Portrait */
+/* #2 - Tablets 768px+ */
 @media screen and (min-width: 768px) {
-    
+    /* Ajustes para tablets */
 }
 
-/* #5 - Tablet - Landscape */
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    /* Ajustes para tablet landscape */
-}
-
-/* #6 - Desktop - Portrait */
+/* #3 - Desktop 1024px+ */
 @media screen and (min-width: 1024px) {
-    /* Ajustes para desktop portrait */
+    /* Ajustes para desktop */
 }
 
-/* #7 - Desktop - Landscape */
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    /* Ajustes para desktop landscape */
-}
-
-/* #8 - Desktop grande - Portrait */
+/* #4 - Large Desktop 1440px+ */
 @media screen and (min-width: 1440px) {
-    /* Ajustes para desktop grande portrait */
+    /* Ajustes para large desktop */
 }
 
-/* #9 - Desktop grande - Landscape */
-@media screen and (min-width: 1440px) and (orientation: landscape) {
-    /* Ajustes para desktop grande landscape */
+/* #5 - Ultra-wide 1920px+ */
+@media screen and (min-width: 1920px) {
+    /* Ajustes para ultra-wide */
 }
 </style>

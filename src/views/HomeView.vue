@@ -28,21 +28,28 @@
     <GetStarted />
     <WhyVitralCSS />
     <HomeFeatures />
-
-    <!-- jasja -->
+    <DemoPreview />
+    <GitHubCTA />
+    <FooterLinks />
 </template>
 
 <script>
 import GetStarted from './home/GetStarted.vue';
 import WhyVitralCSS from './home/WhyVitralCSS.vue';
 import HomeFeatures from './home/HomeFeatures.vue';
+import DemoPreview from './home/DemoPreview.vue';
+import GitHubCTA from './home/GitHubCTA.vue';
+import FooterLinks from './home/FooterLinks.vue';
 
 export default {
     name: 'HomeView',
     components: {
         GetStarted,
         WhyVitralCSS,
-        HomeFeatures
+        HomeFeatures,
+        DemoPreview,
+        GitHubCTA,
+        FooterLinks
     },
     methods: {
         CopyCode() {
