@@ -134,477 +134,85 @@ header {
    MEDIAS QUERIES - HOME
    ============================================ */
 
-/* #1 - Móvil pequeño - Landscape */
-@media screen and (min-width: 320px) and (orientation: landscape) {
-    /* Ajustes para móvil pequeño landscape */
-    header{
-        height: 120vh;
-        width: 100vw;
-    }
+/* Base: móviles pequeños (< 480px) - Estilos por defecto */
 
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
-    }
-}
-
-/* #2 - Móvil - Portrait */
+/* #1 - Móviles 480px+ */
 @media screen and (min-width: 480px) {
-    header{
+    header {
         height: 120vh;
         width: 100vw;
     }
 
-    .title-box{
+    .title-box {
         width: 90%;
     }
 
-    .subtittle{
+    .subtittle, .tittle {
         font-size: 20px;
     }
 
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
+    .code-box, .docs-link {
         width: 45%;
         height: 1vh;
     }
 
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
+    .code-box code, .docs-link span {
         width: 80%;
         font-size: 18px;
         text-align: left;
     }
 
-    .docs-link svg{
+    .code-box button, .docs-link svg {
         width: 20%;
         justify-content: end;
     }
 }
 
-/* #3 - Móvil - Landscape */
-@media screen and (min-width: 480px) and (orientation: landscape) {
-    /* Ajustes para móvil landscape */
-    header{
-        height: 120vh;
-        width: 100vw;
-    }
-
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
-    }
-}
-
-/* #4 - Tablet - Portrait */
+/* #2 - Tablets 768px+ */
 @media screen and (min-width: 768px) {
-    header{
+    header {
         height: 120vh;
-        width: 100vw;
     }
 
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
+    .title-box {
         width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
     }
 }
 
-/* #5 - Tablet - Landscape */
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    /* Ajustes para tablet landscape */
-    header{
-        height: 120vh;
-        width: 100vw;
-    }
-
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
-    }
-}
-
-/* #6 - Desktop - Portrait */
+/* #3 - Desktop 1024px+ */
 @media screen and (min-width: 1024px) {
-    header{
-        height: 120vh;
-        width: 100vw;
-    }
-
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
+    .title-box {
+        width: 70%;
     }
 }
 
-/* #7 - Desktop - Landscape */
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    /* Ajustes para desktop landscape */
-    header{
-        height: 120vh;
-        width: 100vw;
-    }
-
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
-    }
-}
-
-/* #8 - Desktop grande - Portrait */
+/* #4 - Large Desktop 1440px+ */
 @media screen and (min-width: 1440px) {
-    /* Ajustes para desktop grande portrait */
-    header{
-        height: 120vh;
-        width: 100vw;
+    .title-box {
+        width: 60%;
     }
 
-    .title-box{
-        width: 90%;
+    .subtittle {
+        font-size: 24px;
     }
 
-    .subtittle{
+    .tittle {
+        font-size: 60px;
+    }
+
+    .code-box code, .docs-link span {
         font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
     }
 }
 
-/* #9 - Desktop grande - Landscape */
-@media screen and (min-width: 1440px) and (orientation: landscape) {
-    /* Ajustes para desktop grande landscape */
-    header{
-        height: 120vh;
-        width: 100vw;
+/* #5 - Ultra-wide 1920px+ */
+@media screen and (min-width: 1920px) {
+    .title-box {
+        width: 50%;
     }
 
-    .title-box{
-        width: 90%;
-    }
-
-    .subtittle{
-        font-size: 20px;
-    }
-
-    .tittle{
-        font-size: 40px;
-    }
-
-    .code-box{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .code-box code{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-    
-    .code-box button{
-        width: 20%;
-        justify-content: end;
-    }
-
-    .docs-link{
-        width: 45%;
-        height: 1vh;
-    }
-
-    .docs-link span{
-        width: 80%;
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .docs-link svg{
-        width: 20%;
-        justify-content: end;
+    .tittle {
+        font-size: 80px;
     }
 }
 </style>
