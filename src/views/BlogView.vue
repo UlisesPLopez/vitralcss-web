@@ -4,7 +4,7 @@
       <i class="fa-solid fa-blog icon"></i>
       <h1>Blog</h1>
       <p>Updates, tutorials and insights about VitralCSS and Frutiger Aero design.</p>
-      <router-link to="/" class="btn-home Glass-Panel-5 with-hover">
+      <router-link to="/vitralcss-web/" class="btn-home Glass-Panel-5 with-hover">
         <i class="fa-solid fa-house"></i> Back to Home
       </router-link>
     </div>

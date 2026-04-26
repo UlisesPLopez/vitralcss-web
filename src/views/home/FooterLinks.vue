@@ -8,10 +8,10 @@
                             <div class="col-12 col-md-4 footer-section">
                                 <h4>Quick Links</h4>
                                 <ul class="footer-links">
-                                    <li><router-link to="/Docs">Documentation</router-link></li>
-                                    <li><router-link to="/Examples">Examples</router-link></li>
-                                    <li><router-link to="/Playground">Playground</router-link></li>
-                                    <li><router-link to="/Blog">Blog</router-link></li>
+                                    <li><router-link to="/vitralcss-web/Docs">Documentation</router-link></li>
+                                    <li><router-link to="/vitralcss-web/Examples">Examples</router-link></li>
+                                    <li><router-link to="/vitralcss-web/Playground">Playground</router-link></li>
+                                    <li><router-link to="/vitralcss-web/Blog">Blog</router-link></li>
                                 </ul>
                             </div>
                             <div class="col-12 col-md-4 footer-section">

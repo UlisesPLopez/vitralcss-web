@@ -8,27 +8,27 @@ import BlogView from '@/views/BlogView.vue'
 
 const routes = [
   {
-    path:'/',
-    name:'HomeView',
+    path: '/vitralcss-web/',
+    name: 'HomeView',
     component: HomeView
   },
   {
-    path: '/Docs',
+    path: '/vitralcss-web/Docs',
     name: 'DocsView',
     component: DocsViews
   },
   {
-    path: '/Examples',
+    path: '/vitralcss-web/Examples',
     name: 'ExamplesView',
     component: ExamplesView
   },
   {
-    path: '/Playground',
+    path: '/vitralcss-web/Playground',
     name: 'PlaygroundView',
     component: PlaygroundView
   },
   {
-    path: '/Blog',
+    path: '/vitralcss-web/Blog',
     name: 'BlogView',
     component: BlogView
   }

@@ -4,7 +4,7 @@
       <i class="fa-solid fa-book icon"></i>
       <h1>Documentation</h1>
       <p>Complete guide to using VitralCSS in your projects.</p>
-      <router-link to="/" class="btn-home Glass-Panel-5 with-hover">
+      <router-link to="/vitralcss-web/" class="btn-home Glass-Panel-5 with-hover">
         <i class="fa-solid fa-house"></i> Back to Home
       </router-link>
     </div>
