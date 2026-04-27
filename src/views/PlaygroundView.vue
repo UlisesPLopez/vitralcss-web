@@ -4,7 +4,7 @@
       <i class="fa-solid fa-code icon"></i>
       <h1>Playground</h1>
       <p>Experiment and test VitralCSS components in real-time.</p>
-      <router-link to="/vitralcss-web/" class="btn-home Glass-Panel-5 with-hover">
+      <router-link to="/" class="btn-home Glass-Panel-5 with-hover">
         <i class="fa-solid fa-house"></i> Back to Home
       </router-link>
     </div>

@@ -19,7 +19,7 @@
                     </button>
                 </div>
 
-                <router-link to="/vitralcss-web/Docs" class="Glass-Panel-10 with-hover docs-link">
+                <router-link to="/Docs" class="Glass-Panel-10 with-hover docs-link">
                     <span>Read The Docs</span>
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 16 16">

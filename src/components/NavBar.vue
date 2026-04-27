@@ -9,19 +9,19 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link class="nav-link" aria-current="page" to="/vitralcss-web/">Home</router-link>
+                        <router-link class="nav-link" aria-current="page" to="/">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/vitralcss-web/Docs">Docs</router-link>
+                        <router-link class="nav-link" to="/Docs">Docs</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/vitralcss-web/Examples">Examples</router-link>
+                        <router-link class="nav-link" to="/Examples">Examples</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/vitralcss-web/Playground">Playground</router-link>
+                        <router-link class="nav-link" to="/Playground">Playground</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/vitralcss-web/Blog">Blog</router-link>
+                        <router-link class="nav-link" to="/Blog">Blog</router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Github</a>
