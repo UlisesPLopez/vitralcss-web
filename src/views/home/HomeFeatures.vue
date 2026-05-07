@@ -1,5 +1,5 @@
 <template>
-    <section class="features">
+    <section v-once class="features">
         <div class="container">
             <div class="row">
                 <div class="col-12">

@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header v-once>
         <div class="Water-Panel-10 title-box">
             <p class="subtittle">Where nature and design unite again with</p>
             <h1 class="tittle">VitralCSS</h1>

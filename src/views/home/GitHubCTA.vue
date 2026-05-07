@@ -1,5 +1,5 @@
 <template>
-    <section class="github-cta">
+    <section v-once class="github-cta">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 col-lg-6">

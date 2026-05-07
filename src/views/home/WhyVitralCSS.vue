@@ -1,5 +1,5 @@
 <template>
-    <section class="why-vitralcss container">
+    <section v-once class="why-vitralcss container">
         <div class="row">
             <div class="col-12">
                 <h2>Why VitralCSS?</h2>
